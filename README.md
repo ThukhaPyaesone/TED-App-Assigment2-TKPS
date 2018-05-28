@@ -1,2 +1,2 @@
 # TED-App-Assigment2-TKPS
-Create Assigment 2 (First screen of TED App)
+Create Assigment 2 (First Screen of TED App)
