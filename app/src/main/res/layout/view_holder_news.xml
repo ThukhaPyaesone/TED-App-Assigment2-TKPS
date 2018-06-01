@@ -13,7 +13,8 @@
         android:layout_above="@+id/tv_publication_title"
         android:layout_alignLeft="@+id/tv_publication_category"
         android:text="Jeremy Forbes"
-        android:textColor="@color/secondary_text" />
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/text_regular"/>
 
     <TextView
         android:id="@+id/tv_publication_title"
@@ -23,7 +24,7 @@
         android:layout_alignLeft="@+id/tv_publication_category"
         android:text="How to start a conversation"
         android:textColor="@color/secondary_text"
-        android:textSize="@dimen/text_regular_2x"
+        android:textSize="@dimen/text_regular_3x"
         android:textStyle="bold" />
 
     <TextView
@@ -35,7 +36,7 @@
         android:layout_marginLeft="@dimen/margin_medium"
         android:text="about suicide"
         android:textColor="@color/secondary_text"
-        android:textSize="@dimen/text_regular_2x"
+        android:textSize="@dimen/text_regular_3x"
         android:textStyle="bold" />
 
     <TextView
