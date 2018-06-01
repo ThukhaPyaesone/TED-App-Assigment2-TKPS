@@ -42,14 +42,13 @@
         android:id="@+id/tv_min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_alignBottom="@+id/tv_publication_category"
         android:text="6:00"
         android:textColor="@color/secondary_text" />
 
     <TextView
-        android:id="@+id/textViewOptions"
+        android:id="@+id/tv_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/tv_min"
