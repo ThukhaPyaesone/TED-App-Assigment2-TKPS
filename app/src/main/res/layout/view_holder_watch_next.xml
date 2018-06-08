@@ -69,7 +69,4 @@
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@color/primary_text"
         />
-
-
-
 </LinearLayout>
