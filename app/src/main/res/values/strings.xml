@@ -2,4 +2,8 @@
     <string name="app_name">TED-App-Assigment2-TKPS</string>
     <string name="action_settings">Settings</string>
     <string name="title"><b>TED</b> Talks</string>
+    
+    <string name="aboutTalk">Is there someone in your life dealing with anxiety, depression or thoughts of suicide -- but is too ashamed to talk about it? Jeremy Forbes saw this happening around him, and now he\'s on a mission to teach people how to start a conversation about it. In this deeply personal talk, Forbes shares his approach to helping a group of traditionally silent men in his community open up about their struggles. \"We can all be life preservers,\" he says.</string>
+
+    <string name="aboutProfile">Through his charity HALT, Jeremy Forbes aims to break through the stigma attached to mental health, raise awareness through education and empower men to open up conversations around mental health and suicide prevention.Through his charity HALT, Jeremy Forbes aims to break through the stigma attached to mental health, raise awareness through education and empower men to open up conversations around mental health and suicide prevention.</string>
 </resources>

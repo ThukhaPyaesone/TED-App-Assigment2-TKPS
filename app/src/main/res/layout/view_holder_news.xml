@@ -3,8 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="250dp"
     android:layout_margin="@dimen/margin_medium"
-    android:background="@drawable/news_holder"
     android:padding="@dimen/margin_medium">
+
+
+    <ImageView
+        android:id="@+id/iv_news_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/news_holder" />
 
     <TextView
         android:id="@+id/tv_user_name"
@@ -13,8 +20,8 @@
         android:layout_above="@+id/tv_publication_title"
         android:layout_alignLeft="@+id/tv_publication_category"
         android:text="Jeremy Forbes"
-        android:textColor="@color/secondary_text"
-        android:textSize="@dimen/text_regular"/>
+        android:textColor="@color/primary_text_light"
+        android:textSize="@dimen/text_regular" />
 
     <TextView
         android:id="@+id/tv_publication_title"
@@ -23,7 +30,7 @@
         android:layout_above="@+id/tv_publication_category"
         android:layout_alignLeft="@+id/tv_publication_category"
         android:text="How to start a conversation"
-        android:textColor="@color/secondary_text"
+        android:textColor="@color/primary_text_light"
         android:textSize="@dimen/text_regular_3x"
         android:textStyle="bold" />
 
@@ -35,7 +42,7 @@
         android:layout_marginBottom="@dimen/margin_medium"
         android:layout_marginLeft="@dimen/margin_medium"
         android:text="about suicide"
-        android:textColor="@color/secondary_text"
+        android:textColor="@color/primary_text_light"
         android:textSize="@dimen/text_regular_3x"
         android:textStyle="bold" />
 
@@ -43,10 +50,11 @@
         android:id="@+id/tv_min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignBottom="@+id/tv_publication_category"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_medium"
         android:text="6:00"
-        android:textColor="@color/secondary_text" />
+        android:textColor="@color/primary_text_light" />
 
     <TextView
         android:id="@+id/tv_menu"
@@ -58,5 +66,5 @@
         android:paddingLeft="@dimen/margin_medium"
         android:text="&#8942;"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@color/secondary_text" />
+        android:textColor="@color/primary_text_light" />
 </RelativeLayout>
