@@ -47,9 +47,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignTop="@+id/btn_back"
                         android:background="@android:color/transparent"
-                        android:text="&#8942;"
-                        android:textColor="@color/primary_light"
-                        android:textSize="@dimen/text_regular_3x" />
+                        android:drawableLeft="@drawable/ic_more_vert_white_24dp"
+                        android:paddingLeft="@dimen/margin_large"/>
                 </RelativeLayout>
 
             </android.support.v7.widget.Toolbar>
