@@ -45,8 +45,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@android:color/transparent"
                         android:layout_alignTop="@+id/btn_back"
+                        android:background="@android:color/transparent"
                         android:text="&#8942;"
                         android:textColor="@color/primary_light"
                         android:textSize="@dimen/text_regular_3x" />
@@ -208,8 +208,7 @@
                     android:id="@+id/iv_pro_pic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/img_profile_pic"
-                    />
+                    android:src="@drawable/img_profile_pic" />
 
                 <TextView
                     android:id="@+id/tv_profile_name"

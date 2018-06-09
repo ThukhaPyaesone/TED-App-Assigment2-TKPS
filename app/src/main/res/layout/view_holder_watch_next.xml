@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
+    android:layout_marginVertical="@dimen/margin_medium_2"
     android:orientation="horizontal"
-    android:weightSum="8.5"
-    android:layout_marginVertical="@dimen/margin_medium_2">
+    android:weightSum="8.5">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="0dp"
@@ -24,8 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/iv_watch_next_image"
             android:layout_alignRight="@+id/iv_watch_next_image"
-            android:background="@android:color/black"
             android:layout_margin="@dimen/margin_medium"
+            android:background="@android:color/black"
             android:text="11:00"
             android:textColor="@color/primary_text_light"
             android:textSize="@dimen/text_regular_2x" />
@@ -34,8 +34,8 @@
     <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="4"
-        android:layout_marginLeft="@dimen/margin_medium">
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_weight="4">
 
         <TextView
             android:id="@+id/tv_user_name"
@@ -43,19 +43,19 @@
             android:layout_height="wrap_content"
             android:text="Kevin Breel"
             android:textColor="@color/primary_text"
-            android:textSize="@dimen/text_regular_2x"/>
+            android:textSize="@dimen/text_regular_2x" />
 
 
         <TextView
             android:id="@+id/tv_publication_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_user_name"
+            android:layout_below="@+id/tv_user_name"
             android:text="Confessions of a depressed comic"
             android:textColor="@color/primary_text"
             android:textSize="@dimen/text_regular_2x"
-            android:textStyle="bold"
-            android:layout_below="@+id/tv_user_name"
-            android:layout_alignLeft="@+id/tv_user_name"/>
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -67,6 +67,5 @@
         android:layout_weight=".5"
         android:text="&#8942;"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@color/primary_text"
-        />
+        android:textColor="@color/primary_text" />
 </LinearLayout>
