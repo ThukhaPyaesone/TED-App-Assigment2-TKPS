@@ -15,7 +15,7 @@ public class WatchNextAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        View view = layoutInflater.inflate(R.layout.ted_talk_watch_next, parent, false);
+        View view = layoutInflater.inflate(R.layout.view_holder_watch_next, parent, false);
 
         return new WatchNextViewHolder(view);
     }
