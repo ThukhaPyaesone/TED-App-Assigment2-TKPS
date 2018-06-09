@@ -65,28 +65,9 @@ public class MainActivity extends AppCompatActivity implements TedTalksDelegate 
     }
 
     @Override
-    public void onTapNews() {
+    public void onTapViewItem() {
         Intent intent = new Intent(getApplicationContext(), TedTalkDetailsActivity.class);
         startActivity(intent);
     }
-
-    @Override
-    public void onTapFav() {
-
-    }
-
-    @Override
-    public void onTapComment() {
-
-    }
-
-    @Override
-    public void onTapSentTo() {
-
-    }
-
-    @Override
-    public void onTapStatistics() {
-
-    }
+    
 }

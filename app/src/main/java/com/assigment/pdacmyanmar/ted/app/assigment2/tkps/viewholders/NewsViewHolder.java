@@ -16,7 +16,7 @@ public class NewsViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mTedTalkDelegate.onTapNews();
+                mTedTalkDelegate.onTapViewItem();
             }
         });
     }
