@@ -23,7 +23,7 @@
         </activity>
 
         <activity
-            android:name=".activities.NewsDetailsActivity"
+            android:name=".activities.TedTalkDetailsActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 

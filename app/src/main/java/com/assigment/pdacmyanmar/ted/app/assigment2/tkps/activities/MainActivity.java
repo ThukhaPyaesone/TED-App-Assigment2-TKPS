@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements NewsDelegate {
 
     @Override
     public void onTapNews() {
-        Intent intent = new Intent(getApplicationContext(), NewsDetailsActivity.class);
+        Intent intent = new Intent(getApplicationContext(), TedTalkDetailsActivity.class);
         startActivity(intent);
     }
 

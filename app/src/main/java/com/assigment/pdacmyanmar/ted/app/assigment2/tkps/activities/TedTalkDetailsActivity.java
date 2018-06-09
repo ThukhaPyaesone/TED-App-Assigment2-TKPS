@@ -9,13 +9,13 @@ import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.R;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.adapters.WatchNextAdapter;
 
 
-public class NewsDetailsActivity extends BaseActivity {
+public class TedTalkDetailsActivity extends BaseActivity {
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_news_details);
+        setContentView(R.layout.activity_tedtalk_details);
 
         RecyclerView rvNews = findViewById(R.id.rv_watch_next);
 
