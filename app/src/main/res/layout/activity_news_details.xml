@@ -37,7 +37,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
-                        android:background="@android:color/transparent"
                         android:drawableLeft="@drawable/ic_arrow_back_white_40dp" />
 
                     <Button
@@ -46,9 +45,10 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:background="@android:color/transparent"
+                        android:layout_alignTop="@+id/btn_back"
                         android:text="&#8942;"
                         android:textColor="@color/primary_light"
-                        android:textSize="@dimen/text_heading_2x" />
+                        android:textSize="@dimen/text_regular_3x" />
                 </RelativeLayout>
 
             </android.support.v7.widget.Toolbar>
