@@ -69,5 +69,5 @@ public class MainActivity extends AppCompatActivity implements TedTalksDelegate 
         Intent intent = new Intent(getApplicationContext(), TedTalkDetailsActivity.class);
         startActivity(intent);
     }
-    
+
 }
