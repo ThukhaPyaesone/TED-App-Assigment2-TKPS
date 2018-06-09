@@ -13,9 +13,9 @@ import android.view.MenuItem;
 import android.view.View;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.R;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.adapters.NewsAdapter;
-import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates.NewsDelegate;
+import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates.TedTalksDelegate;
 
-public class MainActivity extends AppCompatActivity implements NewsDelegate {
+public class MainActivity extends AppCompatActivity implements TedTalksDelegate {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

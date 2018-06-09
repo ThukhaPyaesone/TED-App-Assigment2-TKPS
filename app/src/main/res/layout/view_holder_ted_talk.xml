@@ -17,25 +17,25 @@
         android:id="@+id/tv_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_publication_title"
-        android:layout_alignLeft="@+id/tv_publication_category"
+        android:layout_above="@+id/tv_ted_talk_title"
+        android:layout_alignLeft="@+id/tv_ted_talk_category"
         android:text="Jeremy Forbes"
         android:textColor="@color/primary_text_light"
         android:textSize="@dimen/text_regular" />
 
     <TextView
-        android:id="@+id/tv_publication_title"
+        android:id="@+id/tv_ted_talk_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_publication_category"
-        android:layout_alignLeft="@+id/tv_publication_category"
+        android:layout_above="@+id/tv_ted_talk_category"
+        android:layout_alignLeft="@+id/tv_ted_talk_category"
         android:text="How to start a conversation"
         android:textColor="@color/primary_text_light"
         android:textSize="@dimen/text_regular_3x"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tv_publication_category"
+        android:id="@+id/tv_ted_talk_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -50,7 +50,7 @@
         android:id="@+id/tv_min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/tv_publication_category"
+        android:layout_alignBottom="@+id/tv_ted_talk_category"
         android:layout_alignParentRight="true"
         android:layout_marginRight="@dimen/margin_medium"
         android:text="6:00"

@@ -1,6 +1,6 @@
 package com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates;
 
-public interface NewsDelegate {
+public interface TedTalksDelegate {
 
     void onTapNews();
     void onTapFav();

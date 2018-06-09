@@ -78,7 +78,7 @@
                 android:textSize="@dimen/text_regular_3x" />
 
             <TextView
-                android:id="@+id/tv_publication_title"
+                android:id="@+id/tv_ted_talk_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="How to start a conversation"
@@ -87,7 +87,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_publication_category"
+                android:id="@+id/tv_ted_talk_category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="about suicide"

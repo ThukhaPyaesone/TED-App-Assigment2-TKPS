@@ -6,16 +6,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.R;
-import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates.NewsDelegate;
+import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates.TedTalksDelegate;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.viewholders.NewsViewHolder;
 
 
 public class NewsAdapter extends RecyclerView.Adapter {
 
-    private NewsDelegate mNewsDelegate;
+    private TedTalksDelegate mTedTalkDelegate;
 
-    public NewsAdapter(NewsDelegate newsDelegate) {
-        mNewsDelegate = newsDelegate;
+    public NewsAdapter(TedTalksDelegate newsDelegate) {
+        mTedTalkDelegate = newsDelegate;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class NewsAdapter extends RecyclerView.Adapter {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         View view = layoutInflater.inflate(R.layout.view_holder_ted_talk, parent, false);
 
-        return new NewsViewHolder(view, mNewsDelegate);
+        return new NewsViewHolder(view, mTedTalkDelegate);
     }
 
     @Override
