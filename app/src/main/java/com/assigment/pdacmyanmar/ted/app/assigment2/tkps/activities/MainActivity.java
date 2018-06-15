@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.R;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.adapters.NewsAdapter;
+import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.data.models.TedTalksModel;
 import com.assigment.pdacmyanmar.ted.app.assigment2.tkps.delegates.TedTalksDelegate;
 
 public class MainActivity extends AppCompatActivity implements TedTalksDelegate {
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements TedTalksDelegate 
                         .setAction("Action", null).show();
             }
         });
+
+        TedTalksModel.getObjInstance().loadTedTalkList();
     }
 
     @Override
